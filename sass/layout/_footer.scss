@@ -1,0 +1,32 @@
+
+.footer{
+    background: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-total{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.main-logo{
+    display: block;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc( 31 / 26 );
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.footer-logo{
+    color: var(--primery-title-color);
+}

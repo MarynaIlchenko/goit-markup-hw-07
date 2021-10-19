@@ -1,0 +1,127 @@
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc( 16 / 14 );
+    letter-spacing: 0.02em;  
+    border: 1px solid #ECECEC; 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: block;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-contacts-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}   
+
+.header-contacts-link,
+.header-link {
+    display: block;
+}
+
+.header-contacts-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-contacts {
+    display: block;
+    margin-left: auto;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc( 31 / 26 );
+    color: var(--accent-color);
+    margin-right: 93px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-logo {
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.white-logo {
+    color: var(--header-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+
+.header-list .link.current {
+    color: var(--accent-color);
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc( 16 / 14 );
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--header-text-color);
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: var(--accent-color)
+}
+
+.header-contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--header-contacts-color)
+}
+
+.header-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.current::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    display: block;
+    bottom: -1px;
+}

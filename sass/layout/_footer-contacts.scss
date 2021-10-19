@@ -1,0 +1,24 @@
+.contacts-address{
+    font-style: inherit;
+}
+
+.contacts-link{
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 0px;
+    color: var(--primery-title-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-item:not(:last-child){
+    margin-bottom: 9px;
+}
+
+.contacts-color{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--accent-color);
+}
