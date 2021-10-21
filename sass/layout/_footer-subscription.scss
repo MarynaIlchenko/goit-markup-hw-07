@@ -2,11 +2,11 @@
     margin-left: 0 auto;
 }
 
-.online-subscription{
+.footer-subscription__online{
     display: flex;
 }
 
-.input-subscription{
+.footer-subscription__input{
     width: 358px;
     height: 50px;
     padding: 15px 16px;
@@ -20,8 +20,8 @@
 }
 
 
-.input-subscription:hover,
-.input-subscription:focus {
+.footer-subscription__input:hover,
+.footer-subscription__input:focus {
     border-color: var(--accent-color);
 }
 
@@ -38,7 +38,7 @@
     color: var(--primery-title-color);
 }
 
-.subscription-btn{
+.footer-subscription__btn{
     width: 200px;
     height: 50px;
     background: var(--accent-color);
@@ -47,11 +47,11 @@
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscription-icon{
+.footer-subscription__icon{
     margin-left: 10px;
 }
 
-.subscription-btn:hover,
-.subscription-btn:focus {
+.footer-subscription__btn:hover,
+.footer-subscription__btn:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
