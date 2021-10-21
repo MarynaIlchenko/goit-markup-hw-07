@@ -5,7 +5,7 @@
     margin-bottom: 20px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primery-title-color)
+    color: var(--primery-title-color);
 }
 
 .footer-list{
@@ -29,8 +29,10 @@
     height: 20px;
 }
 
-.footer-list__add-item:not(:last-child){
-    margin-right: 10px;
+.footer-list__add-item{
+    &:not(:last-child){
+        margin-right: 10px;
+    }
 }
 
 .footer-list__social-link{

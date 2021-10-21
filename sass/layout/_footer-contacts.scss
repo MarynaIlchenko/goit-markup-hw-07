@@ -13,8 +13,10 @@
     }
 }
 
-.contacts-list__item:not(:last-child){
-    margin-bottom: 9px;
+.contacts-list__item{
+    &:not(:last-child){
+        margin-bottom: 9px;
+    }
 }
 
 .contacts-list__color{
