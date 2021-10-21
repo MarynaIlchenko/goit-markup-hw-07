@@ -1,4 +1,4 @@
-.services-title {
+.services__container-title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -11,23 +11,23 @@
     padding-bottom: 94px;
 }
 
-.services-container {
+.services__container {
     align-items: center;
     text-align: center;
 }
 
-.services-title-list {
+.services-title__list {
     display: flex;
     list-style: none;
     margin-left: -30px;
 }
 
-.services-title-item {
+.services-title__item{
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
 }
 
-.text-thumb {
+.services-title__text-thumb {
     position: absolute;
     top: 224px;
     left: 0;
@@ -35,12 +35,12 @@
     bottom: 0;
 }
 
-.services-title-item {
+.services-title__item {
     position: relative;
     display: block;
 } 
 
-.text-thumb {
+.services-title__text-thumb {
     display: flex;
     align-items: center;
     justify-content: center;
