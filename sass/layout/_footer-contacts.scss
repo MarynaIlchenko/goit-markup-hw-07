@@ -1,8 +1,8 @@
-.footer__contacts-address{
+.footer__contacts-address {
     font-style: inherit;
 }
 
-.contacts-list__link{
+.contacts-list__link {
     font-size: 14px;
     line-height: 1.71;
     margin-top: 0px;
@@ -13,12 +13,12 @@
     }
 }
 
-.contacts-list__item{
+.contacts-list__item {
     &:not(:last-child){
         margin-bottom: 9px;
     }
 }
 
-.contacts-list__color{
+.contacts-list__color {
     color: rgba(255, 255, 255, 0.6);
 }

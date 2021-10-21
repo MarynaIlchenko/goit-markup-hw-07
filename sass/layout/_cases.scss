@@ -1,4 +1,4 @@
-.cases-list{
+.cases-list {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
@@ -6,21 +6,21 @@
     margin-top: -30px;
 }
 
-.cases-list__item{
+.cases-list__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cases-list__item-box{
+.cases-list__item-box {
     background-color: var(--primery-title-color);
     border-top: none;
     border: 1px solid #EEEEEE;
     padding: 20px 24px 20px 24px;
 }
 
-.cases-list__item-title{
+.cases-list__item-title {
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
@@ -29,14 +29,14 @@
     color: var(--secondary-title-color);
 }
 
-.cases-list__item-text{
+.cases-list__item-text {
     font-size: 16px;
     line-height: calc(30 / 16);
     margin: 0px;
     color: var(--primery-text-color);
 }
 
-.cases-list__link{
+.cases-list__link {
     display: block;
     cursor: pointer;
     text-decoration: none;
@@ -46,7 +46,7 @@
     }
 }
 
-.cases-list__top-text{
+.cases-list__top-text {
     font-size: 18px;
     line-height: calc(28 / 18);
     letter-spacing: 0.03em;
@@ -65,7 +65,7 @@
     }
 }
 
-.cases-list__top-wraper{
+.cases-list__top-wraper {
     position: relative;
     overflow: hidden;
 }

@@ -1,4 +1,4 @@
-.clients{
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -7,18 +7,17 @@
     align-items: center; 
 }
 
-.clients-list{
+.clients-list {
     display: flex;
     justify-content: center;
 }
 
-
-.clients-list__item{
+.clients-list__item {
     + & {
     margin-left: 30px;
     }
 }
-.clients-list__icon{
+.clients-list__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +31,7 @@
     }
 }
 
-.clients-list__link{
+.clients-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +47,7 @@
     }
 }
 
-.clients__container-title{
+.clients__container-title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -58,6 +57,6 @@
     color: var(--header-text-color);
 }
 
-.clients__list-item{
+.clients__list-item {
     display: flex;
 }
