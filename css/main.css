@@ -286,7 +286,7 @@ body {
   padding: 40px;
 }
 
-.close-btn {
+.modal__close-btn {
   position: absolute;
   display: flex;
   align-items: center;
@@ -303,16 +303,16 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:hover {
+.modal__close-btn:hover {
   border: 1px solid var(--accent-color);
 }
 
-.input-wrapper {
+.modal-field__input-wrapper {
   display: block;
   position: relative;
 }
 
-.modal-input {
+.modal-field__modal-input {
   width: 100%;
   height: 40px;
   border-radius: 4px;
@@ -324,22 +324,22 @@ body {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:hover,
-.modal-input:focus {
+.modal-field__modal-input:hover,
+.modal-field__modal-input:focus {
   border-color: var(--accent-color);
 }
 
-.modal-input:hover + .input-icon,
-.modal-input:focus + .input-icon {
+.modal-field__modal-input:hover + .modal-field__input-icon,
+.modal-field__modal-input:focus + .modal-field__input-icon {
   fill: var(--accent-color);
 }
 
-.modal-text-input:hover,
-.modal-text-input:focus {
+.modal-field__text-input:hover,
+.modal-field__text-input:focus {
   border-color: var(--accent-color);
 }
 
-.check-text {
+.modal-field__check-text {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -351,7 +351,7 @@ body {
   justify-content: center;
 }
 
-.check-text span {
+.modal-field__check-text span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -363,17 +363,17 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox:checked + .check-text span {
+.modal-field__checkbox:checked + .modal-field__check-text span {
   background: var(--accent-color);
   border: none;
 }
 
-.check-text span:hover,
-.check-text span:focus {
+.modal-field__check-text span:hover,
+.modal-field__check-text span:focus {
   border-color: var(--accent-color);
 }
 
-.input-icon {
+.modal-field__input-icon {
   position: absolute;
   left: 15px;
   top: 50%;
@@ -381,7 +381,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -394,7 +394,7 @@ body {
   margin-bottom: 10px;
 }
 
-.input-label {
+.modal-field__input-label {
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
@@ -403,7 +403,7 @@ body {
   margin-bottom: 4px;
 }
 
-.modal-text-input {
+.modal-field__text-input {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -418,7 +418,7 @@ body {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn {
+.modal-field__btn {
   display: block;
   margin: 0 auto;
   font-family: inherit;
@@ -437,12 +437,12 @@ body {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-field__btn:hover,
+.modal-field__btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.conditions-link {
+.modal-field__conditions-link {
   margin-left: 4px;
   font-size: 14px;
   line-height: 1.71;
@@ -451,19 +451,19 @@ body {
   color: var(--accent-color);
 }
 
-.modal-close {
+.modal__close-icon {
   width: 18px;
   height: 18px;
   fill: #000000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal__close-icon:hover,
+.modal__close-icon:focus {
   fill: var(--accent-color);
 }
 
-.check-icon {
+.modal-field__check-icon {
   width: 16px;
   height: 15px;
   border-color: #212121;
