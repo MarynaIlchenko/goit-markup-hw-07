@@ -13,8 +13,10 @@
     margin-bottom: 50px;
 }
 
-.portfolio-list > .portfolio-list__item:not(:last-child) {
-    margin-right: 8px;
+.portfolio-list {
+    .portfolio-list__item:not(:last-child) {
+        margin-right: 8px;
+    }
 }
 
 .portfolio-list__btn{

@@ -8,6 +8,9 @@
     margin-top: 0px;
     color: var(--primery-title-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus{
+        color: var(--accent-color);
+    }
 }
 
 .contacts-list__item:not(:last-child){
@@ -16,9 +19,4 @@
 
 .contacts-list__color{
     color: rgba(255, 255, 255, 0.6);
-}
-
-.contacts-list__link:hover,
-.contacts-list__link:focus{
-    color: var(--accent-color);
 }

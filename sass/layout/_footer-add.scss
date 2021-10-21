@@ -43,9 +43,7 @@
     justify-content: center;
     fill: var(--primery-title-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-list__social-link:hover, 
-.footer-list__social-link:focus {
-    background-color: var(--accent-color);
+    &:hover, &:focus{
+        background-color: var(--accent-color);
+    }
 }
