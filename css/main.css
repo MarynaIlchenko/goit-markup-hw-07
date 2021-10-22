@@ -111,7 +111,7 @@ body {
   margin-left: auto;
 }
 
-.header-list .link .current {
+.header-list .link.current {
   color: var(--accent-color);
 }
 
